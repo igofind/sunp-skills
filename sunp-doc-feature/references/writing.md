@@ -4,7 +4,9 @@
 
 ## 表达规则
 
-以下规则让句子更易读、易懂，适用于全部文档。依据 [Google 开发者文档风格指南](https://developers.google.com/style/person)与 [Microsoft 写作风格指南](https://learn.microsoft.com/en-us/style-guide/top-10-tips-style-voice/)，按中文习惯调整。
+产出的是解释型文档，目标是让人理解功能现状与关系。只陈述事实、结论与依据，不写操作步骤、不穷举接口清单。
+
+以下规则让句子更易读、易懂，适用于全部文档。规则已列全，按本清单执行，审查时不需访问外部链接；规则出处见本 skill 的参考资料台账。
 
 **人称与视角**
 
