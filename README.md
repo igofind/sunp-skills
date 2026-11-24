@@ -9,6 +9,7 @@
 | [`sunp-doc-project`](sunp-doc-project/SKILL.md) | 生成项目现状文档 |
 | [`sunp-doc-feature`](sunp-doc-feature/SKILL.md) | 生成指定功能现状文档 |
 | [`sunp-doc-check`](sunp-doc-check/SKILL.md) | 文档表达、语法、风格与阅读体验审查 |
+| [`sunp-code-style`](sunp-code-style/SKILL.md) | 代码风格审查：按语言触发规则，输出分级问题清单 |
 
 ## 加载
 

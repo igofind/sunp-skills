@@ -1,0 +1,34 @@
+[
+  {
+    "skills": ["sunp-code-style"],
+    "query": "检查这个 Java 项目的代码风格",
+    "files": ["<样例仓库>/src/main/java/"],
+    "expected_behavior": [
+      "识别为 Java 并加载 java.md",
+      "同时检查 Google Java Style 与项目自定义要求",
+      "结构问题包括最小充分、调用可达、参数必要、分支可达、抽象有据、配置有用",
+      "注释问题包括写语义不写复述、新增符号 1-2 句、改实现同步更新",
+      "只输出问题清单，不改代码"
+    ]
+  },
+  {
+    "skills": ["sunp-code-style"],
+    "query": "检查这个多语言项目的代码风格",
+    "files": ["<样例仓库>/src/main/java/", "<样例仓库>/src/", "<样例仓库>/app/"],
+    "expected_behavior": [
+      "以文件扩展名为第一依据识别语言，按文件分别套用对应规则",
+      "项目配置只作辅助，不覆盖扩展名判定",
+      "交付说明列出识别到的语言与覆盖范围"
+    ]
+  },
+  {
+    "skills": ["sunp-code-style"],
+    "query": "检查这个无法识别类型的文件的代码风格",
+    "files": ["<样例仓库>/scripts/unknown.ext"],
+    "expected_behavior": [
+      "不套用任何语言规则",
+      "只套通用规则审查格式、命名、注释、结构与一致性",
+      "交付说明列出未识别文件"
+    ]
+  }
+]

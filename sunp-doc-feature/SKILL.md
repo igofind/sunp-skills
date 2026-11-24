@@ -15,7 +15,7 @@ metadata:
 
 ## 用途
 
-`sunp-doc-project` 给出项目全景；本 skill 从全景里选一个功能钻下去，产出给人看的深度画像：这个功能是做什么的、怎么跑、代码在哪、依赖谁、数据怎么存、异常怎么处理。输入多个项目时，以功能为主线串起跨项目链路。
+`sunp-doc-project` 给出项目全景；本 skill 从全景里选一个功能钻下去，产出给人看的深度画像。输入多个项目时，以功能为主线串起跨项目链路。
 
 按主题拆成多篇独立文档，每篇完整自洽。
 
@@ -63,7 +63,7 @@ metadata:
 
 ## 阶段二：生成
 
-按选中的文档逐篇生成，一个主题一个独立文件，写入 `docs/01 功能画像/<功能名>/`。写作要求见 [`references/writing.md`](references/writing.md)，各类文档的骨架见 [`references/templates.md`](references/templates.md)。
+按选中的文档逐篇生成，一个主题一个独立文件，写入 `docs/01 功能画像/<功能名>/`。写作要求见 [`references/writing.md`](references/writing.md)，各类文档的骨架见 [`references/templates.md`](references/templates.md)；完整示例见 [`examples/`](examples/01-功能概览.md) 与 [`02-流程与逻辑.md`](examples/02-流程与逻辑.md)。
 
 自检按 [`references/writing.md`](references/writing.md) 的清单逐项过；任一项不合格就当场修改并重新自检，全部合格后才输出交付说明。
 
