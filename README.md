@@ -1,6 +1,6 @@
 # sunp-skills
 
-个人日常开发的 skill 集合。按 [工作场景](工作场景.md) 组织，每个 skill 采用标准目录结构：`<skill-name>/SKILL.md`，按需附带 `references/`、`examples/` 与 `evals/`。编写与优化时参考的资料随各 skill 存放在其目录，索引见 [参考资料](参考资料.md)。
+个人日常开发的 skill 集合。按 [工作场景](工作场景.md) 组织；编写规范见 [编写规范](编写规范.md)；编写与优化时参考的资料随各 skill 存放在其目录，索引见 [参考资料](参考资料.md)。
 
 ## Skills
 
